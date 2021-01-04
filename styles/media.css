@@ -1,0 +1,298 @@
+@media (max-width: 1400px) {
+    .blog__row {
+        flex-wrap: wrap;
+    }
+
+    .blog__card {
+        width: 440px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .circle-1 {
+        top: 200px;
+    }
+
+    .circle-2 {
+        top: 430px;
+        left: 260px;
+    }
+
+    .header__content {
+        justify-content: space-between;
+    }
+
+    .header__content-left {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .header__content-right {
+        width: 450px;
+        height: 300px;
+    }
+
+    .header__content-right::after {
+        width: 430px;
+    }
+
+    .about .container {
+        justify-content: space-around;
+    }
+
+    .about__left {
+        width: 450px;
+    }
+
+    .about__right {
+        width: 450px;
+    }
+
+    .about__right-ellipse {
+        width: 400px;
+        bottom: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .circle-1 {
+        top: 90px;
+        left: 58px;
+    }
+
+    .circle-2 {
+        top: 280px;
+        left: 460px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .header__content {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .nav__list {
+        margin-right: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .nav__link {
+        margin: 0 10px;
+    }
+
+    .header__content-right::after {
+        bottom: -5px;
+    }
+
+    .header__content-right-img {
+        bottom: -20px;
+    }
+
+    .company__card {
+        width: 320px;
+        margin: 10px;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about__left {
+        margin-bottom: 30px;
+        width: 600px;
+    }
+
+    .about__title {
+        border-radius: 15px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .about__text {
+        border-radius: 15px;
+        background: var(--purple);
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .about__title span {
+        top: 0;
+    }
+
+    .blog__card {
+        width: 340px;
+    }
+
+    .stats__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stats__card {
+        width: 350px;
+        margin: 15px;
+    }
+
+    .contacts__row {
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__left,
+    .footer__right {
+        width: 100%;
+    }
+
+    .footer__map {
+        margin-bottom: -5px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .circle-1,
+    .circle-2 {
+        display: none;
+    }
+
+    .header__content-left {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .company__card {
+        width: 238px;
+    }
+
+    .about__left {
+        width: 500px;
+    }
+
+    .blog__row {
+        margin-top: -27px;
+    }
+
+    .blog__card {
+        width: 440px;
+    }
+
+    .contacts__left,
+    .contacts__left-img,
+    .contacts__left-ellipse {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav__list,
+    .nav__lang {
+        display: none;
+    }
+
+    .nav__button {
+        display: flex;
+    }
+
+    .header__content-right {
+        width: 280px;
+        height: 200px;
+    }
+
+    .header__content-right-img {
+        width: 100%;
+        bottom: -3px;
+    }
+
+    .header__content-right::after {
+        width: 270px;
+        bottom: 0;
+    }
+
+    .header__title {
+        font-size: 26px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .header__text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .company__title {
+        margin-bottom: 30px;
+    }
+
+    .about__left,
+    .about__right {
+        width: 100%;
+    }
+
+    .about__right-ellipse {
+        width: 90%;
+        bottom: 5%;
+    }
+
+    .about__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .blog__card {
+        width: 100%;
+    }
+
+    .form__input,
+    .form__block {
+        width: 100%;
+    }
+
+    .contacts__left-ellipse {
+        bottom: 5px;
+    }
+
+    .footer {
+        padding: 0 15px;
+    }
+
+    .footer__left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer__link {
+        margin-bottom: 10px;
+    }
+
+    .footer__tel,
+    .footer__email,
+    .footer__address {
+        font-size: 18px;
+    }
+}
